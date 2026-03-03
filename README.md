@@ -1,4 +1,4 @@
-# Econ-Bottleneck-GeoFin-Crits
+# Channel Checker Bottleneck-WARN-Crit Mins
 
 A bottom-up economic bottleneck detection platform that ingests data from federal and state government sources, identifies supply chain and fiscal stress signals, and surfaces emerging risks through automated analysis.
 
