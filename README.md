@@ -28,8 +28,8 @@ At minimum, you need FRED and BLS API keys for core functionality. Additional ke
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/Lildvs/Econ-Bottleneck-GeoFin-Crits.git
-cd Econ-Bottleneck-GeoFin-Crits
+git clone https://github.com/Lildvs/Channel-Checker-Bottleneck---WARN---Crit-Mins.git
+cd Channel-Checker-Bottleneck---WARN---Crit-Mins
 
 # 2. Create your .env from the template
 cp env.example .env
