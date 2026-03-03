@@ -81,3 +81,18 @@ See `Data Sources.md` for the complete catalog of federal and state government d
 ## License
 
 This project is provided as-is for educational and research purposes.
+
+## Screenshots
+<img width="898" height="725" alt="P1-1" src="https://github.com/user-attachments/assets/be98b888-2485-4763-978e-73b70c2b3ecf" />
+
+<img width="903" height="718" alt="P1-2" src="https://github.com/user-attachments/assets/b7355131-f353-4df7-9f8b-66ed98a68e60" />
+
+<img width="902" height="718" alt="P1-3" src="https://github.com/user-attachments/assets/fde0265e-90a1-4d70-9aa7-0a70066342f5" />
+
+<img width="907" height="714" alt="P1-4" src="https://github.com/user-attachments/assets/8db154af-235e-47ed-938c-edcdac2498b2" />
+
+img width="904" height="717" alt="P1-5" src="https://github.com/user-attachments/assets/7981ee24-77aa-4c61-8066-168335597a52" />
+
+<img width="901" height="723" alt="P1-6" src="https://github.com/user-attachments/assets/8ebbfea8-63f0-4761-983c-de383887ecf1" />
+
+<img width="898" height="720" alt="P1-7" src="https://github.com/user-attachments/assets/f0ea7fa5-1748-4e7b-b88c-320b7b92f18a" />
