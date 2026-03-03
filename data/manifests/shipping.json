@@ -1,0 +1,15 @@
+{
+  "source": "shipping",
+  "datasets": {
+    "pola_teu_monthly.csv": {
+      "url": "https://data.lacity.org/api/views/tsuv-4rgh/rows.csv?accessType=DOWNLOAD",
+      "last_checked": "2026-03-02T10:50:28.677670+00:00",
+      "last_modified": "Tue, 13 Nov 2018 21:26:52 GMT",
+      "etag": "\"Zm94dHJvdC44MDk5XzJfMzJvTUh3TDByRVJGTkhZRnhWanhuRFR0LW1MNUk---gziq3oIWmB_IQnWBfTJP-fiaLzlAtVw--gzip--gzip\"",
+      "content_hash": "2c6b7f7a689ca29e50093a21c59a0a1b449bd604f77c0f9b52e16685b39988c9",
+      "last_downloaded": "2026-03-02T10:50:28.286200+00:00",
+      "file_path": "data/raw/shipping/2026-03-02/pola_teu_monthly.csv",
+      "size_bytes": 5300
+    }
+  }
+}

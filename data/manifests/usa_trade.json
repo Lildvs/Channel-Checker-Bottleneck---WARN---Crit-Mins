@@ -1,0 +1,35 @@
+{
+  "source": "usa_trade",
+  "datasets": {
+    "exports_commodity.json": {
+      "url": "https://api.census.gov/data/timeseries/intltrade/exports/hs?get=CTY_CODE,CTY_NAME,ALL_VAL_MO,ALL_VAL_YR&time=from+2024",
+      "last_checked": "2026-03-03T02:54:05.258707+00:00",
+      "last_modified": null,
+      "etag": null,
+      "content_hash": "d67b237b6c4227f03416431dc66c286416a911ee08f8c722af5e4ceb8da12d28",
+      "last_downloaded": "2026-03-03T02:54:00.776889+00:00",
+      "file_path": "data/raw/usa_trade/2026-03-03/exports_commodity.json",
+      "size_bytes": 333857
+    },
+    "imports_commodity.json": {
+      "url": "https://api.census.gov/data/timeseries/intltrade/imports/hs?get=CTY_CODE,CTY_NAME,GEN_VAL_MO,GEN_VAL_YR&time=from+2024",
+      "last_checked": "2026-02-23T01:51:14.843777+00:00",
+      "last_modified": null,
+      "etag": null,
+      "content_hash": "08c245c3f68cbe9a505daff1656fd6fcea7e0e9150cca21b2f498c2d5391300d",
+      "last_downloaded": "2026-02-23T01:51:05.746636+00:00",
+      "file_path": "data/raw/usa_trade/2026-02-23/imports_commodity.json",
+      "size_bytes": 332703
+    },
+    "trade_balance.json": {
+      "url": "https://api.census.gov/data/timeseries/intltrade/exports/statehs?get=STATE,ALL_VAL_MO&time=from+2024",
+      "last_checked": "2026-03-03T02:54:30.514803+00:00",
+      "last_modified": null,
+      "etag": null,
+      "content_hash": "756d765c8dac70e214d87baae11564fb6e9825445e9b00d11632fb7e3dfc84ce",
+      "last_downloaded": "2026-03-03T02:54:29.693683+00:00",
+      "file_path": "data/raw/usa_trade/2026-03-03/trade_balance.json",
+      "size_bytes": 40532
+    }
+  }
+}

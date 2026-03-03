@@ -1,0 +1,52 @@
+# Prometheus configuration for Channel Check Researcher
+# https://prometheus.io/docs/prometheus/latest/configuration/configuration/
+
+global:
+  scrape_interval: 15s      # How often to scrape targets
+  evaluation_interval: 15s  # How often to evaluate rules
+  
+  # Attach labels to any time series or alerts
+  external_labels:
+    monitor: 'channelcheck'
+
+# Alertmanager configuration (optional - uncomment if using)
+# alerting:
+#   alertmanagers:
+#     - static_configs:
+#         - targets:
+#           - alertmanager:9093
+
+# Rule files (optional - uncomment and create if using alerts)
+# rule_files:
+#   - "alerts/*.yml"
+
+# Scrape configurations
+scrape_configs:
+  # Scrape the FastAPI application
+  - job_name: 'channelcheck-api'
+    static_configs:
+      - targets: ['app:8000']
+    metrics_path: /metrics
+    scrape_interval: 15s
+    scrape_timeout: 10s
+    
+    # Add metadata labels
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: instance
+        replacement: channelcheck-api
+
+  # Scrape Redis (if redis_exporter is added)
+  # - job_name: 'redis'
+  #   static_configs:
+  #     - targets: ['redis-exporter:9121']
+
+  # Scrape TimescaleDB/PostgreSQL (if postgres_exporter is added)
+  # - job_name: 'postgres'
+  #   static_configs:
+  #     - targets: ['postgres-exporter:9187']
+
+  # Prometheus self-monitoring
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']

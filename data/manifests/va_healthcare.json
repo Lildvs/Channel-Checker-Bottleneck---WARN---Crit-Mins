@@ -1,0 +1,35 @@
+{
+  "source": "va_healthcare",
+  "datasets": {
+    "healthcare_utilization.csv": {
+      "url": "https://www.data.va.gov/resource/syfx-f9ne.csv?$limit=50000",
+      "last_checked": "2026-03-02T09:27:45.990638+00:00",
+      "last_modified": "Mon, 30 Jun 2025 21:28:34 GMT",
+      "etag": "\"anVsaWV0dC45MDUzMF8xXzE2OF9UUnQxVTNnSC1NQTR5N0RMQnFjUWFaQUtoaw---gziqsjUurevD8VBnkIAmwZHw-HOiNF--gzip--gzip\"",
+      "content_hash": "f2a696b6741d816bd7d1e59424cd8f38c296c38f895c40a22d6274b560d214de",
+      "last_downloaded": "2026-03-02T09:27:45.846462+00:00",
+      "file_path": "data/raw/va_healthcare/2026-03-02/healthcare_utilization.csv",
+      "size_bytes": 10295
+    },
+    "facility_counts.csv": {
+      "url": "https://www.data.va.gov/resource/2weg-acgq.csv?$limit=50000",
+      "last_checked": "2026-03-02T09:27:46.194865+00:00",
+      "last_modified": "Tue, 29 Jul 2025 21:01:56 GMT",
+      "etag": "\"anVsaWV0dC45MTkzOF8yXzY3eFNCYlR0cXlWV21DV3R4czU3Z0E0LUVrdmtF---gzipk4S9eJqzMHIUZEZlsl2kneFtfHI--gzip--gzip\"",
+      "content_hash": "5f57553c61c9e7b03836a9df71957164335544c94efa2578bc7abca1a6d4ebdd",
+      "last_downloaded": "2026-03-02T09:27:46.178026+00:00",
+      "file_path": "data/raw/va_healthcare/2026-03-02/facility_counts.csv",
+      "size_bytes": 2100
+    },
+    "benefits_utilization.csv": {
+      "url": "https://www.data.va.gov/resource/8x3h-hffb.csv?$limit=50000",
+      "last_checked": "2026-03-02T09:27:46.579889+00:00",
+      "last_modified": "Wed, 04 Jun 2025 20:33:36 GMT",
+      "etag": "\"anVsaWV0dC44NjQ5OF8xXzE2Ny0xeDN0ZkZFa2YwVldLaU9TNXQ4M3VvbzVKcw---gziqsjUurevD8VBnkIAmwZHw-HOiNF--gzip--gzip\"",
+      "content_hash": "1ba1d0588f9b6853dc66e82816b38765c9f7a7d2f62825e4e3a110a0e8226294",
+      "last_downloaded": "2026-03-02T09:27:46.387182+00:00",
+      "file_path": "data/raw/va_healthcare/2026-03-02/benefits_utilization.csv",
+      "size_bytes": 7716
+    }
+  }
+}
