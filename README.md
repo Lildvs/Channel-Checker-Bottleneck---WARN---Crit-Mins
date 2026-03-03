@@ -12,7 +12,7 @@ The system collects macroeconomic, trade, commodity, labor, and fiscal data from
 - **Bottleneck detection** across 8 categories: energy, shipping, labor, commodities, fiscal, consumer stress, critical minerals, capacity utilization
 - **Sector dependency mapping** with propagation simulation (how a shock in one sector cascades)
 - **WARN Act tracking** across 40+ U.S. states with per-state HTML/PDF/CSV parsers
-- **LLM-powered forecasting** for bottleneck duration and severity (optional, requires API key)
+- **LLM-powered forecasting** for bottleneck duration and severity (optional, requires API key) (Still In Progress)
 - **React dashboard** with D3 dependency graph, trade flow visualizations, and time-series explorer
 
 ## Requirements
