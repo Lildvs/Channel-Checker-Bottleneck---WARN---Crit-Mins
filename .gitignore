@@ -71,6 +71,7 @@ Thumbs.db
 
 # Markdown (exclude all except Data Sources)
 *.md
+!README.md
 !Data Sources.md
 # Keep .gitkeep files in data dirs
 !data/**/.gitkeep
